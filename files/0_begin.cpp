@@ -9,7 +9,7 @@ void perimeter_calc(){
     cout << "Input side: ";
     cin >> side;
     int perimeter = side * 4;
-    std::cout << "Perimeter of square is: " << perimeter << std::endl;
+    cout << "Perimeter of square is: " << perimeter << std::endl;
 }
 // Begin2
 void area_calc(){
@@ -17,7 +17,7 @@ void area_calc(){
     cout << "Input side: ";
     cin >> side;
     int area = side * side;
-    std::cout << "Area of square is: " << area << std::endl;
+    cout << "Area of square is: " << area << std::endl;
 }
 
 // Begin3
@@ -29,7 +29,7 @@ void square_calc(){
     cin >> side_b;
     int perimeter = 2 * (side_a + side_b);
     int area = side_b * side_b;
-    std::cout << "Are of square is: " << area << "; and perimeter is: " << perimeter << std::endl;
+    cout << "Are of square is: " << area << "; and perimeter is: " << perimeter << std::endl;
 }
 
 // Begin4
@@ -39,7 +39,7 @@ void circle_calc(){
     cout << "Input diameter: ";
     cin >> diameter;
     float length = pi * float(diameter);
-    std::cout << "Length of circle is: " << length << std::endl;
+    cout << "Length of circle is: " << length << std::endl;
 }
 
 // Begin5
@@ -48,5 +48,5 @@ void volume_calc(){
     cout << "Input side: ";
     cin >> side;
     int volume = side^3;
-    std::cout << "Volume of cube is: " << volume << std::endl;
+    cout << "Volume of cube is: " << volume << std::endl;
 }

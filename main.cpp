@@ -1,8 +1,5 @@
-#include <iostream>
-#include "0_begin.cpp"
-#include "1_integer.cpp"
-
 // Execution part
+#include <iostream>
 int main()
 {
     return 0;

@@ -9,7 +9,7 @@ void full_metres(){
     cout << "Input length: ";
     cin >> length_cm;
     int length_m = length_cm/100;
-    std::cout << "Length in meters is: " << length_m << std::endl;
+    cout << "Length in meters is: " << length_m << endl;
 }
 
 // Integer2
@@ -18,7 +18,7 @@ void full_tonnes(){
     cout << "Input mass: ";
     cin >> mass_kg;
     int mass_tn = mass_kg/1000;
-    std::cout << "Mass in tonnes is: " << mass_tn << std::endl;
+    cout << "Mass in tonnes is: " << mass_tn << endl;
 }
 
 // Integer3
@@ -27,7 +27,7 @@ void b_in_kb(){
     cout << "Input file size: ";
     cin >> size_b;
     int size_kb = size_b/1024;
-    std::cout << "Kb in ur file is: " << mass_tn << std::endl;
+    cout << "Kb in ur file is: " << size_kb << endl;
 }
 
 // Integer4
@@ -38,7 +38,7 @@ void a_in_b(){
     cout << "Input B: ";
     cin >> b;
     int res = a/b;
-    std::cout << "A in B: " << res << std::endl;
+    cout << "A in B: " << res << endl;
 }
 
 // Integer5
@@ -49,5 +49,5 @@ void rest_of_a_in_b(){
     cout << "Input B: ";
     cin >> b;
     int rest = (a%b) - (a/b);
-    std::cout << "Free space left: " << rest << std::endl;
+    cout << "Free space left: " << rest << endl;
 }
